@@ -7,5 +7,7 @@ actual class FileSource actual constructor(private val path: String) {
 
   actual fun readLines(): List<String> = file.readLines()
 
+  actual fun readBytes(): ByteArray = file.readBytes()
+
   actual fun close() {}
 }
