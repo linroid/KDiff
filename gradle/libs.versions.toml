@@ -1,0 +1,11 @@
+[versions]
+kotlin = "2.3.10"
+clikt = "5.0.3"
+
+[libraries]
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+clikt = { module = "com.github.ajalt.clikt:clikt", version.ref = "clikt" }
+
+[plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
